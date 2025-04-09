@@ -1,0 +1,31 @@
+# Ignore compiled files
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# Ignore Flex and Bison generated files
+lex.yy.c
+y.tab.c
+y.tab.h
+
+# Ignore generated binaries
+lexer
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore backup files
+*~
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
